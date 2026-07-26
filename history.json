@@ -1,0 +1,1810 @@
+[
+  {
+    "timestamp": "2026-07-19T18:12:56.383235",
+    "raw_data": "https://www.google.com/maps/place/View+on+the+Atlantic+Ocean/@34.0219717,-6.8353228,2587m/data=!3m1!1e3!4m15!1m8!3m7!1s0xda76bd54aff3041:0x56440694e429b8f6!2sMeko+Food!8m2!3d34.0530234!4d-6.7921571!10e9!16s%2Fg%2F11c1x2jkc3!3m5!1s0xda76d4ae19c0e2b:0x7a163667ddc49833!8m2!3d34.0302851!4d-6.846415!16s%2Fg%2F11l36ykvhv!5m1!1e1!17m2!4m1!1e3!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D",
+    "visual_status": "LEGITIMATE",
+    "visual_details": "Visual structure, quiet zone, and texture are uniform and legitimate.",
+    "tampering_detected": false,
+    "entities": {
+      "urls": [
+        "https://www.google.com"
+      ],
+      "ips": [
+        "142.251.157.119",
+        "142.251.154.119",
+        "142.251.151.119",
+        "142.251.152.119",
+        "142.251.155.119",
+        "142.251.156.119",
+        "142.251.150.119",
+        "142.251.153.119"
+      ],
+      "domains": [
+        "www.google.com"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "https://www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "ips": {
+        "142.251.157.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.154.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.151.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.152.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.155.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.156.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.150.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.153.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "domains": {
+        "www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      }
+    },
+    "risk_score": 0,
+    "risk_factors": {
+      "https": {
+        "risk": 0,
+        "reason": "URL uses HTTPS (secure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 0,
+        "reason": "No suspicious keywords detected"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (22 characters)"
+      },
+      "virustotal": {
+        "risk": 0,
+        "reason": "VirusTotal reports clean"
+      }
+    },
+    "verdict": "SAFE",
+    "verdict_color": "#00cc44"
+  },
+  {
+    "timestamp": "2026-07-19T18:12:28.004499",
+    "verdict": "UNREADABLE",
+    "verdict_color": "#ffaa00",
+    "visual_status": "UNVERIFIED",
+    "visual_details": "Could not visually locate the QR code boundary (angle, lighting, or resolution). Physical-tamper checks were skipped; digital checks still ran.",
+    "tampering_detected": false,
+    "raw_data": "UNREADABLE",
+    "entities": [],
+    "risk_score": 0,
+    "risk_factors": {}
+  },
+  {
+    "timestamp": "2026-07-19T18:11:58.092452",
+    "verdict": "BLOCKED",
+    "verdict_color": "#ff4444",
+    "visual_status": "COVERED/DAMAGED",
+    "visual_details": "Texture/sharpness break detected (Ratio: 0.22). Probable sticker overlay.",
+    "tampering_detected": true,
+    "raw_data": "UNREADABLE",
+    "entities": [],
+    "risk_score": 100,
+    "risk_factors": {
+      "physical_tampering": {
+        "risk": 100,
+        "reason": "Texture/sharpness break detected (Ratio: 0.22). Probable sticker overlay."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-19T18:11:37.270664",
+    "raw_data": "http://localhost:8080/test",
+    "visual_status": "LEGITIMATE",
+    "visual_details": "Visual structure, quiet zone, and texture are uniform and legitimate.",
+    "tampering_detected": false,
+    "entities": {
+      "urls": [
+        "http://localhost"
+      ],
+      "ips": [
+        "127.0.0.1"
+      ],
+      "domains": [
+        "localhost"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "http://localhost": {
+          "verdict": "NOT_FOUND_IN_VT",
+          "malicious_count": 0
+        }
+      },
+      "ips": {
+        "127.0.0.1": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "domains": {
+        "localhost": {
+          "verdict": "ERROR_400",
+          "malicious_count": 0
+        }
+      }
+    },
+    "risk_score": 15,
+    "risk_factors": {
+      "https": {
+        "risk": 15,
+        "reason": "URL does not use HTTPS (insecure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 0,
+        "reason": "No suspicious keywords detected"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (16 characters)"
+      },
+      "virustotal": {
+        "risk": 0,
+        "reason": "VirusTotal reports clean"
+      }
+    },
+    "verdict": "LOW RISK",
+    "verdict_color": "#88cc00"
+  },
+  {
+    "timestamp": "2026-07-19T17:21:06.435629",
+    "raw_data": "https://www.google.com/maps/place/View+on+the+Atlantic+Ocean/@34.0219717,-6.8353228,2587m/data=!3m1!1e3!4m15!1m8!3m7!1s0xda76bd54aff3041:0x56440694e429b8f6!2sMeko+Food!8m2!3d34.0530234!4d-6.7921571!10e9!16s%2Fg%2F11c1x2jkc3!3m5!1s0xda76d4ae19c0e2b:0x7a163667ddc49833!8m2!3d34.0302851!4d-6.846415!16s%2Fg%2F11l36ykvhv!5m1!1e1!17m2!4m1!1e3!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D",
+    "visual_status": "LEGITIMATE",
+    "visual_details": "Visual structure, quiet zone, and texture are uniform and legitimate.",
+    "tampering_detected": false,
+    "entities": {
+      "urls": [
+        "https://www.google.com"
+      ],
+      "ips": [
+        "142.251.155.119",
+        "142.251.154.119",
+        "142.251.157.119",
+        "142.251.151.119",
+        "142.251.153.119",
+        "142.251.152.119",
+        "142.251.150.119",
+        "142.251.156.119"
+      ],
+      "domains": [
+        "www.google.com"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "https://www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "ips": {
+        "142.251.155.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.154.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.157.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.151.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.153.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.152.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.150.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.156.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "domains": {
+        "www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      }
+    },
+    "risk_score": 0,
+    "risk_factors": {
+      "https": {
+        "risk": 0,
+        "reason": "URL uses HTTPS (secure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 0,
+        "reason": "No suspicious keywords detected"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (22 characters)"
+      },
+      "virustotal": {
+        "risk": 0,
+        "reason": "VirusTotal reports clean"
+      }
+    },
+    "verdict": "SAFE",
+    "verdict_color": "#00cc44"
+  },
+  {
+    "timestamp": "2026-07-19T17:20:46.291014",
+    "verdict": "UNREADABLE",
+    "verdict_color": "#ffaa00",
+    "visual_status": "UNVERIFIED",
+    "visual_details": "Could not visually locate the QR code boundary (angle, lighting, or resolution). Physical-tamper checks were skipped; digital checks still ran.",
+    "tampering_detected": false,
+    "raw_data": "UNREADABLE",
+    "entities": [],
+    "risk_score": 0,
+    "risk_factors": {}
+  },
+  {
+    "timestamp": "2026-07-19T17:20:40.361284",
+    "raw_data": "http://localhost:8080/test",
+    "visual_status": "LEGITIMATE",
+    "visual_details": "Visual structure, quiet zone, and texture are uniform and legitimate.",
+    "tampering_detected": false,
+    "entities": {
+      "urls": [
+        "http://localhost"
+      ],
+      "ips": [
+        "127.0.0.1"
+      ],
+      "domains": [
+        "localhost"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "http://localhost": {
+          "verdict": "NOT_FOUND_IN_VT",
+          "malicious_count": 0
+        }
+      },
+      "ips": {
+        "127.0.0.1": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "domains": {
+        "localhost": {
+          "verdict": "ERROR_400",
+          "malicious_count": 0
+        }
+      }
+    },
+    "risk_score": 15,
+    "risk_factors": {
+      "https": {
+        "risk": 15,
+        "reason": "URL does not use HTTPS (insecure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 0,
+        "reason": "No suspicious keywords detected"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (16 characters)"
+      },
+      "virustotal": {
+        "risk": 0,
+        "reason": "VirusTotal reports clean"
+      }
+    },
+    "verdict": "LOW RISK",
+    "verdict_color": "#88cc00"
+  },
+  {
+    "timestamp": "2026-07-19T17:19:32.941132",
+    "verdict": "BLOCKED",
+    "verdict_color": "#ff4444",
+    "visual_status": "COVERED/DAMAGED",
+    "visual_details": "Texture/sharpness break detected (Ratio: 0.22). Probable sticker overlay.",
+    "tampering_detected": true,
+    "raw_data": "UNREADABLE",
+    "entities": [],
+    "risk_score": 100,
+    "risk_factors": {
+      "physical_tampering": {
+        "risk": 100,
+        "reason": "Texture/sharpness break detected (Ratio: 0.22). Probable sticker overlay."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-19T17:19:03.446067",
+    "verdict": "BLOCKED",
+    "verdict_color": "#ff4444",
+    "visual_status": "COVERED/DAMAGED",
+    "visual_details": "Texture/sharpness break detected (Ratio: 0.22). Probable sticker overlay.",
+    "tampering_detected": true,
+    "raw_data": "UNREADABLE",
+    "entities": [],
+    "risk_score": 100,
+    "risk_factors": {
+      "physical_tampering": {
+        "risk": 100,
+        "reason": "Texture/sharpness break detected (Ratio: 0.22). Probable sticker overlay."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-19T17:18:56.072016",
+    "verdict": "UNREADABLE",
+    "verdict_color": "#ffaa00",
+    "visual_status": "LEGITIMATE",
+    "visual_details": "Visual structure, quiet zone, and texture are uniform and legitimate.",
+    "tampering_detected": false,
+    "raw_data": "UNREADABLE",
+    "entities": [],
+    "risk_score": 0,
+    "risk_factors": {}
+  },
+  {
+    "timestamp": "2026-07-19T17:17:36.571800",
+    "raw_data": "https://paypal-secure-login.com/verify",
+    "visual_status": "LEGITIMATE",
+    "visual_details": "Visual structure, quiet zone, and texture are uniform and legitimate.",
+    "tampering_detected": false,
+    "entities": {
+      "urls": [
+        "https://paypal-secure-login.com"
+      ],
+      "ips": [
+        "99.83.176.46"
+      ],
+      "domains": [
+        "paypal-secure-login.com"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "https://paypal-secure-login.com": {
+          "malicious_count": 13,
+          "suspicious_count": 0,
+          "verdict": "MALICIOUS"
+        }
+      },
+      "ips": {
+        "99.83.176.46": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "domains": {
+        "paypal-secure-login.com": {
+          "malicious_count": 14,
+          "suspicious_count": 0,
+          "verdict": "MALICIOUS"
+        }
+      }
+    },
+    "risk_score": 35,
+    "risk_factors": {
+      "https": {
+        "risk": 0,
+        "reason": "URL uses HTTPS (secure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 15,
+        "reason": "Suspicious keywords found: login, secure, paypal"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (31 characters)"
+      },
+      "virustotal": {
+        "risk": 20,
+        "reason": "VirusTotal detected 27 malicious engines"
+      }
+    },
+    "verdict": "MEDIUM RISK",
+    "verdict_color": "#ffaa00"
+  },
+  {
+    "timestamp": "2026-07-19T17:16:07.647620",
+    "raw_data": "https://paypal-secure-login.com/verify",
+    "visual_status": "LEGITIMATE",
+    "visual_details": "Visual structure, quiet zone, and texture are uniform and legitimate.",
+    "tampering_detected": false,
+    "entities": {
+      "urls": [
+        "https://paypal-secure-login.com"
+      ],
+      "ips": [
+        "99.83.176.46"
+      ],
+      "domains": [
+        "paypal-secure-login.com"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "https://paypal-secure-login.com": {
+          "malicious_count": 13,
+          "suspicious_count": 0,
+          "verdict": "MALICIOUS"
+        }
+      },
+      "ips": {
+        "99.83.176.46": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "domains": {
+        "paypal-secure-login.com": {
+          "malicious_count": 14,
+          "suspicious_count": 0,
+          "verdict": "MALICIOUS"
+        }
+      }
+    },
+    "risk_score": 35,
+    "risk_factors": {
+      "https": {
+        "risk": 0,
+        "reason": "URL uses HTTPS (secure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 15,
+        "reason": "Suspicious keywords found: login, secure, paypal"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (31 characters)"
+      },
+      "virustotal": {
+        "risk": 20,
+        "reason": "VirusTotal detected 27 malicious engines"
+      }
+    },
+    "verdict": "MEDIUM RISK",
+    "verdict_color": "#ffaa00"
+  },
+  {
+    "timestamp": "2026-07-19T17:15:53.854601",
+    "raw_data": "https://www.google.com",
+    "visual_status": "LEGITIMATE",
+    "visual_details": "Visual structure, quiet zone, and texture are uniform and legitimate.",
+    "tampering_detected": false,
+    "entities": {
+      "urls": [
+        "https://www.google.com"
+      ],
+      "ips": [
+        "142.251.155.119",
+        "142.251.154.119",
+        "142.251.157.119",
+        "142.251.153.119",
+        "142.251.151.119",
+        "142.251.152.119",
+        "142.251.150.119",
+        "142.251.156.119"
+      ],
+      "domains": [
+        "www.google.com"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "https://www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "ips": {
+        "142.251.155.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.154.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.157.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.153.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.151.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.152.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.150.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.156.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "domains": {
+        "www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      }
+    },
+    "risk_score": 0,
+    "risk_factors": {
+      "https": {
+        "risk": 0,
+        "reason": "URL uses HTTPS (secure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 0,
+        "reason": "No suspicious keywords detected"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (22 characters)"
+      },
+      "virustotal": {
+        "risk": 0,
+        "reason": "VirusTotal reports clean"
+      }
+    },
+    "verdict": "SAFE",
+    "verdict_color": "#00cc44"
+  },
+  {
+    "timestamp": "2026-07-19T17:15:15.522115",
+    "raw_data": "http://85.11.167.178/manji.x86",
+    "visual_status": "LEGITIMATE",
+    "visual_details": "Visual structure, quiet zone, and texture are uniform and legitimate.",
+    "tampering_detected": false,
+    "entities": {
+      "urls": [
+        "http://85.11.167.178"
+      ],
+      "ips": [
+        "85.11.167.178"
+      ],
+      "domains": [
+        "85.11.167.178"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "http://85.11.167.178": {
+          "malicious_count": 4,
+          "suspicious_count": 2,
+          "verdict": "MALICIOUS"
+        }
+      },
+      "ips": {
+        "85.11.167.178": {
+          "malicious_count": 3,
+          "suspicious_count": 4,
+          "verdict": "MALICIOUS"
+        }
+      },
+      "domains": {
+        "85.11.167.178": {
+          "verdict": "ERROR_400",
+          "malicious_count": 0
+        }
+      }
+    },
+    "risk_score": 55,
+    "risk_factors": {
+      "https": {
+        "risk": 15,
+        "reason": "URL does not use HTTPS (insecure connection)"
+      },
+      "ip_in_url": {
+        "risk": 20,
+        "reason": "URL contains IP address instead of domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 0,
+        "reason": "No suspicious keywords detected"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (20 characters)"
+      },
+      "virustotal": {
+        "risk": 20,
+        "reason": "VirusTotal detected 7 malicious engines"
+      }
+    },
+    "verdict": "HIGH RISK",
+    "verdict_color": "#ff8800"
+  },
+  {
+    "timestamp": "2026-07-19T17:15:02.657581",
+    "raw_data": "tranquilglowqx.pro",
+    "visual_status": "LEGITIMATE",
+    "visual_details": "Visual structure, quiet zone, and texture are uniform and legitimate.",
+    "tampering_detected": false,
+    "entities": {
+      "urls": [],
+      "ips": [],
+      "domains": [
+        "tranquilglowqx.pro"
+      ]
+    },
+    "vt_results": {
+      "urls": {},
+      "ips": {},
+      "domains": {
+        "tranquilglowqx.pro": {
+          "malicious_count": 7,
+          "suspicious_count": 0,
+          "verdict": "MALICIOUS"
+        }
+      }
+    },
+    "risk_score": 20,
+    "risk_factors": {
+      "url_analysis": {
+        "risk": 0,
+        "reason": "No URL found in the QR payload; link-based checks were skipped."
+      },
+      "virustotal": {
+        "risk": 20,
+        "reason": "VirusTotal detected 7 malicious engines"
+      }
+    },
+    "verdict": "LOW RISK",
+    "verdict_color": "#88cc00"
+  },
+  {
+    "timestamp": "2026-07-19T17:14:48.873868",
+    "raw_data": "https://www.google.com/maps/place/View+on+the+Atlantic+Ocean/@34.0219717,-6.8353228,2587m/data=!3m1!1e3!4m15!1m8!3m7!1s0xda76bd54aff3041:0x56440694e429b8f6!2sMeko+Food!8m2!3d34.0530234!4d-6.7921571!10e9!16s%2Fg%2F11c1x2jkc3!3m5!1s0xda76d4ae19c0e2b:0x7a163667ddc49833!8m2!3d34.0302851!4d-6.846415!16s%2Fg%2F11l36ykvhv!5m1!1e1!17m2!4m1!1e3!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D",
+    "visual_status": "LEGITIMATE",
+    "visual_details": "Visual structure, quiet zone, and texture are uniform and legitimate.",
+    "tampering_detected": false,
+    "entities": {
+      "urls": [
+        "https://www.google.com"
+      ],
+      "ips": [
+        "142.251.155.119",
+        "142.251.154.119",
+        "142.251.157.119",
+        "142.251.153.119",
+        "142.251.151.119",
+        "142.251.152.119",
+        "142.251.150.119",
+        "142.251.156.119"
+      ],
+      "domains": [
+        "www.google.com"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "https://www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "ips": {
+        "142.251.155.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.154.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.157.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.153.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.151.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.152.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.150.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.156.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "domains": {
+        "www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      }
+    },
+    "risk_score": 0,
+    "risk_factors": {
+      "https": {
+        "risk": 0,
+        "reason": "URL uses HTTPS (secure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 0,
+        "reason": "No suspicious keywords detected"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (22 characters)"
+      },
+      "virustotal": {
+        "risk": 0,
+        "reason": "VirusTotal reports clean"
+      }
+    },
+    "verdict": "SAFE",
+    "verdict_color": "#00cc44"
+  },
+  {
+    "timestamp": "2026-07-19T17:07:35.138837",
+    "raw_data": "https://www.google.com/maps/place/View+on+the+Atlantic+Ocean/@34.0219717,-6.8353228,2587m/data=!3m1!1e3!4m15!1m8!3m7!1s0xda76bd54aff3041:0x56440694e429b8f6!2sMeko+Food!8m2!3d34.0530234!4d-6.7921571!10e9!16s%2Fg%2F11c1x2jkc3!3m5!1s0xda76d4ae19c0e2b:0x7a163667ddc49833!8m2!3d34.0302851!4d-6.846415!16s%2Fg%2F11l36ykvhv!5m1!1e1!17m2!4m1!1e3!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D",
+    "visual_status": "SUSPICIOUS",
+    "visual_details": "Quiet zone violated or overflowing (Mean intensity: 166/255).",
+    "tampering_detected": true,
+    "entities": {
+      "urls": [
+        "https://www.google.com"
+      ],
+      "ips": [
+        "142.251.154.119",
+        "142.251.157.119",
+        "142.251.153.119",
+        "142.251.155.119",
+        "142.251.151.119",
+        "142.251.152.119",
+        "142.251.150.119",
+        "142.251.156.119"
+      ],
+      "domains": [
+        "www.google.com"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "https://www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "ips": {
+        "142.251.154.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.157.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.153.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.155.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.151.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.152.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.150.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.156.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "domains": {
+        "www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      }
+    },
+    "risk_score": 100,
+    "risk_factors": {
+      "https": {
+        "risk": 0,
+        "reason": "URL uses HTTPS (secure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 0,
+        "reason": "No suspicious keywords detected"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (22 characters)"
+      },
+      "virustotal": {
+        "risk": 0,
+        "reason": "VirusTotal reports clean"
+      },
+      "physical_tampering": {
+        "risk": 100,
+        "reason": "Quiet zone violated or overflowing (Mean intensity: 166/255)."
+      }
+    },
+    "verdict": "BLOCKED",
+    "verdict_color": "#ff4444"
+  },
+  {
+    "timestamp": "2026-07-19T10:12:34.494954",
+    "raw_data": "https://www.google.com",
+    "visual_status": "COVERED/DAMAGED",
+    "visual_details": "Suspicious internal structure. StdDev: 104.50, Internal Squares: 8.",
+    "tampering_detected": true,
+    "entities": {
+      "urls": [
+        "https://www.google.com"
+      ],
+      "ips": [
+        "142.251.153.119",
+        "142.251.156.119",
+        "142.251.157.119",
+        "142.251.155.119",
+        "142.251.152.119",
+        "142.251.154.119",
+        "142.251.151.119",
+        "142.251.150.119"
+      ],
+      "domains": [
+        "www.google.com"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "https://www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "ips": {
+        "142.251.153.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.156.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.157.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.155.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.152.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.154.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.151.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.150.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "domains": {
+        "www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      }
+    },
+    "risk_score": 100,
+    "risk_factors": {
+      "https": {
+        "risk": 0,
+        "reason": "URL uses HTTPS (secure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 0,
+        "reason": "No suspicious keywords detected"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (22 characters)"
+      },
+      "virustotal": {
+        "risk": 0,
+        "reason": "VirusTotal reports clean"
+      },
+      "physical_tampering": {
+        "risk": 100,
+        "reason": "Suspicious internal structure. StdDev: 104.50, Internal Squares: 8."
+      }
+    },
+    "verdict": "BLOCKED",
+    "verdict_color": "#ff4444"
+  },
+  {
+    "timestamp": "2026-07-19T09:48:39.806933",
+    "verdict": "BLOCKED",
+    "verdict_color": "#ff4444",
+    "visual_status": "COVERED/DAMAGED",
+    "visual_details": "Suspicious internal structure. StdDev: 118.84, Internal Squares: 4.",
+    "raw_data": "READING BLOCKED FOR SECURITY",
+    "entities": {
+      "urls": [],
+      "ips": [],
+      "domains": []
+    },
+    "risk_score": 100,
+    "risk_factors": {
+      "physical_tampering": {
+        "risk": 100,
+        "reason": "Suspicious internal structure. StdDev: 118.84, Internal Squares: 4."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-19T09:48:28.041478",
+    "verdict": "BLOCKED",
+    "verdict_color": "#ff4444",
+    "visual_status": "COVERED/DAMAGED",
+    "visual_details": "Suspicious internal structure. StdDev: 104.50, Internal Squares: 8.",
+    "raw_data": "READING BLOCKED FOR SECURITY",
+    "entities": {
+      "urls": [],
+      "ips": [],
+      "domains": []
+    },
+    "risk_score": 100,
+    "risk_factors": {
+      "physical_tampering": {
+        "risk": 100,
+        "reason": "Suspicious internal structure. StdDev: 104.50, Internal Squares: 8."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-19T09:24:24.737718",
+    "verdict": "BLOCKED",
+    "verdict_color": "#ff4444",
+    "visual_status": "COVERED/DAMAGED",
+    "visual_details": "Suspicious internal structure. StdDev: 118.84, Internal Squares: 4.",
+    "raw_data": "READING BLOCKED FOR SECURITY",
+    "entities": {
+      "urls": [],
+      "ips": [],
+      "domains": []
+    },
+    "risk_score": 100,
+    "risk_factors": {
+      "physical_tampering": {
+        "risk": 100,
+        "reason": "Suspicious internal structure. StdDev: 118.84, Internal Squares: 4."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-19T09:24:09.695840",
+    "verdict": "BLOCKED",
+    "verdict_color": "#ff4444",
+    "visual_status": "COVERED/DAMAGED",
+    "visual_details": "Suspicious internal structure. StdDev: 114.63, Internal Squares: 4.",
+    "raw_data": "READING BLOCKED FOR SECURITY",
+    "entities": {
+      "urls": [],
+      "ips": [],
+      "domains": []
+    },
+    "risk_score": 100,
+    "risk_factors": {
+      "physical_tampering": {
+        "risk": 100,
+        "reason": "Suspicious internal structure. StdDev: 114.63, Internal Squares: 4."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-19T09:23:19.402073",
+    "verdict": "BLOCKED",
+    "verdict_color": "#ff4444",
+    "visual_status": "COVERED/DAMAGED",
+    "visual_details": "Suspicious internal structure. StdDev: 119.58, Internal Squares: 4.",
+    "raw_data": "READING BLOCKED FOR SECURITY",
+    "entities": {
+      "urls": [],
+      "ips": [],
+      "domains": []
+    },
+    "risk_score": 100,
+    "risk_factors": {
+      "physical_tampering": {
+        "risk": 100,
+        "reason": "Suspicious internal structure. StdDev: 119.58, Internal Squares: 4."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-19T09:23:16.146367",
+    "verdict": "BLOCKED",
+    "verdict_color": "#ff4444",
+    "visual_status": "COVERED/DAMAGED",
+    "visual_details": "Suspicious internal structure. StdDev: 119.58, Internal Squares: 4.",
+    "raw_data": "READING BLOCKED FOR SECURITY",
+    "entities": {
+      "urls": [],
+      "ips": [],
+      "domains": []
+    },
+    "risk_score": 100,
+    "risk_factors": {
+      "physical_tampering": {
+        "risk": 100,
+        "reason": "Suspicious internal structure. StdDev: 119.58, Internal Squares: 4."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-19T09:23:03.973786",
+    "verdict": "BLOCKED",
+    "verdict_color": "#ff4444",
+    "visual_status": "COVERED/DAMAGED",
+    "visual_details": "Suspicious internal structure. StdDev: 119.58, Internal Squares: 4.",
+    "raw_data": "READING BLOCKED FOR SECURITY",
+    "entities": {
+      "urls": [],
+      "ips": [],
+      "domains": []
+    },
+    "risk_score": 100,
+    "risk_factors": {
+      "physical_tampering": {
+        "risk": 100,
+        "reason": "Suspicious internal structure. StdDev: 119.58, Internal Squares: 4."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-17T20:37:24.061239",
+    "raw_data": "https://www.google.com",
+    "visual_status": "COVERED/DAMAGED",
+    "entities": {
+      "urls": [
+        "https://www.google.com"
+      ],
+      "ips": [
+        "142.251.153.119",
+        "142.251.151.119",
+        "142.251.156.119",
+        "142.251.157.119",
+        "142.251.154.119",
+        "142.251.152.119",
+        "142.251.155.119",
+        "142.251.150.119"
+      ],
+      "domains": [
+        "www.google.com"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "https://www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "ips": {
+        "142.251.153.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.151.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.156.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.157.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.154.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.152.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.155.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.150.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "domains": {
+        "www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      }
+    },
+    "risk_score": 0,
+    "risk_factors": {
+      "https": {
+        "risk": 0,
+        "reason": "URL uses HTTPS (secure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 0,
+        "reason": "No suspicious keywords detected"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (22 characters)"
+      },
+      "virustotal": {
+        "risk": 0,
+        "reason": "VirusTotal reports clean"
+      }
+    },
+    "verdict": "SAFE",
+    "verdict_color": "#00cc44"
+  },
+  {
+    "timestamp": "2026-07-17T20:23:21.935531",
+    "raw_data": "https://paypal-secure-login-verify.com/update",
+    "visual_status": "COVERED/DAMAGED",
+    "entities": {
+      "urls": [
+        "https://paypal-secure-login-verify.com/update"
+      ],
+      "ips": [],
+      "domains": [
+        "paypal-secure-login-verify.com"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "https://paypal-secure-login-verify.com/update": {
+          "verdict": "NOT_FOUND_IN_VT"
+        }
+      },
+      "ips": {},
+      "domains": {
+        "paypal-secure-login-verify.com": {
+          "malicious_count": 1,
+          "suspicious_count": 0,
+          "verdict": "MALICIOUS"
+        }
+      }
+    },
+    "risk_score": 25,
+    "risk_factors": {
+      "https": {
+        "risk": 0,
+        "reason": "URL uses HTTPS (secure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 20,
+        "reason": "Suspicious keywords found: login, verify, update, secure, paypal"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (45 characters)"
+      },
+      "virustotal": {
+        "risk": 5,
+        "reason": "VirusTotal detected 1 malicious engines"
+      }
+    },
+    "verdict": "LOW RISK",
+    "verdict_color": "#88cc00"
+  },
+  {
+    "timestamp": "2026-07-17T20:18:59.067089",
+    "raw_data": "https://microsoft-office365-verify-account.com/secure",
+    "visual_status": "COVERED/DAMAGED",
+    "entities": {
+      "urls": [
+        "https://microsoft-office365-verify-account.com/secure"
+      ],
+      "ips": [],
+      "domains": [
+        "microsoft-office365-verify-account.com"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "https://microsoft-office365-verify-account.com/secure": {
+          "verdict": "NOT_FOUND_IN_VT"
+        }
+      },
+      "ips": {},
+      "domains": {
+        "microsoft-office365-verify-account.com": {
+          "verdict": "NOT_FOUND_IN_VT"
+        }
+      }
+    },
+    "risk_score": 35,
+    "risk_factors": {
+      "https": {
+        "risk": 0,
+        "reason": "URL uses HTTPS (secure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 15,
+        "reason": "URL uses shortener service (t.co)"
+      },
+      "keywords": {
+        "risk": 20,
+        "reason": "Suspicious keywords found: verify, secure, microsoft, office365, account"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (53 characters)"
+      },
+      "virustotal": {
+        "risk": 0,
+        "reason": "VirusTotal reports clean"
+      }
+    },
+    "verdict": "MEDIUM RISK",
+    "verdict_color": "#ffaa00"
+  },
+  {
+    "timestamp": "2026-07-17T20:18:44.831275",
+    "raw_data": "https://www.google.com",
+    "visual_status": "COVERED/DAMAGED",
+    "entities": {
+      "urls": [
+        "https://www.google.com"
+      ],
+      "ips": [
+        "142.251.151.119",
+        "142.251.155.119",
+        "142.251.157.119",
+        "142.251.156.119",
+        "142.251.150.119",
+        "142.251.152.119",
+        "142.251.153.119",
+        "142.251.154.119"
+      ],
+      "domains": [
+        "www.google.com"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "https://www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "ips": {
+        "142.251.151.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.155.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.157.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.156.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.150.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.152.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.153.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        },
+        "142.251.154.119": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      },
+      "domains": {
+        "www.google.com": {
+          "malicious_count": 0,
+          "suspicious_count": 0,
+          "verdict": "CLEAN"
+        }
+      }
+    },
+    "risk_score": 0,
+    "risk_factors": {
+      "https": {
+        "risk": 0,
+        "reason": "URL uses HTTPS (secure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 0,
+        "reason": "No suspicious keywords detected"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (22 characters)"
+      },
+      "virustotal": {
+        "risk": 0,
+        "reason": "VirusTotal reports clean"
+      }
+    },
+    "verdict": "SAFE",
+    "verdict_color": "#00cc44"
+  },
+  {
+    "timestamp": "2026-07-17T20:04:59.140798",
+    "raw_data": "tranquilglowqx.pro",
+    "visual_status": "COVERED/DAMAGED",
+    "entities": {
+      "urls": [],
+      "ips": [],
+      "domains": [
+        "tranquilglowqx.pro"
+      ]
+    },
+    "vt_results": {
+      "urls": {},
+      "ips": {},
+      "domains": {
+        "tranquilglowqx.pro": {
+          "malicious_count": 6,
+          "suspicious_count": 1,
+          "verdict": "MALICIOUS"
+        }
+      }
+    },
+    "risk_score": 35,
+    "risk_factors": {
+      "https": {
+        "risk": 15,
+        "reason": "URL does not use HTTPS (insecure connection)"
+      },
+      "ip_in_url": {
+        "risk": 0,
+        "reason": "URL uses domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 0,
+        "reason": "No suspicious keywords detected"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (18 characters)"
+      },
+      "virustotal": {
+        "risk": 20,
+        "reason": "VirusTotal detected 6 malicious engines"
+      }
+    },
+    "verdict": "MEDIUM RISK",
+    "verdict_color": "#ffaa00"
+  },
+  {
+    "timestamp": "2026-07-17T20:02:34.002918",
+    "raw_data": "http://85.11.167.178/manji.x86",
+    "visual_status": "COVERED/DAMAGED",
+    "entities": {
+      "urls": [
+        "http://85.11.167.178/manji.x86"
+      ],
+      "ips": [
+        "85.11.167.178"
+      ],
+      "domains": [
+        "85.11.167.178"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "http://85.11.167.178/manji.x86": {
+          "malicious_count": 4,
+          "suspicious_count": 1,
+          "verdict": "MALICIOUS"
+        }
+      },
+      "ips": {
+        "85.11.167.178": {
+          "malicious_count": 3,
+          "suspicious_count": 1,
+          "verdict": "MALICIOUS"
+        }
+      },
+      "domains": {
+        "85.11.167.178": {
+          "verdict": "ERROR_400"
+        }
+      }
+    },
+    "risk_score": 55,
+    "risk_factors": {
+      "https": {
+        "risk": 15,
+        "reason": "URL does not use HTTPS (insecure connection)"
+      },
+      "ip_in_url": {
+        "risk": 20,
+        "reason": "URL contains IP address instead of domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 0,
+        "reason": "No suspicious keywords detected"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (30 characters)"
+      },
+      "virustotal": {
+        "risk": 20,
+        "reason": "VirusTotal detected 7 malicious engines"
+      }
+    },
+    "verdict": "HIGH RISK",
+    "verdict_color": "#ff8800"
+  },
+  {
+    "timestamp": "2026-07-17T19:55:03.503920",
+    "raw_data": "http://85.11.167.178/manji.x86",
+    "visual_status": "COVERED/DAMAGED",
+    "entities": {
+      "urls": [
+        "http://85.11.167.178/manji.x86"
+      ],
+      "ips": [
+        "85.11.167.178"
+      ],
+      "domains": [
+        "85.11.167.178"
+      ]
+    },
+    "vt_results": {
+      "urls": {
+        "http://85.11.167.178/manji.x86": {
+          "malicious_count": 4,
+          "suspicious_count": 1,
+          "verdict": "MALICIOUS"
+        }
+      },
+      "ips": {
+        "85.11.167.178": {
+          "malicious_count": 3,
+          "suspicious_count": 1,
+          "verdict": "MALICIOUS"
+        }
+      },
+      "domains": {
+        "85.11.167.178": {
+          "verdict": "ERROR_400"
+        }
+      }
+    },
+    "risk_score": 55,
+    "risk_factors": {
+      "https": {
+        "risk": 15,
+        "reason": "URL does not use HTTPS (insecure connection)"
+      },
+      "ip_in_url": {
+        "risk": 20,
+        "reason": "URL contains IP address instead of domain name"
+      },
+      "url_shortener": {
+        "risk": 0,
+        "reason": "URL is not shortened"
+      },
+      "keywords": {
+        "risk": 0,
+        "reason": "No suspicious keywords detected"
+      },
+      "length": {
+        "risk": 0,
+        "reason": "URL length is normal (30 characters)"
+      },
+      "virustotal": {
+        "risk": 20,
+        "reason": "VirusTotal detected 7 malicious engines"
+      }
+    },
+    "verdict": "HIGH RISK",
+    "verdict_color": "#ff8800"
+  }
+]
